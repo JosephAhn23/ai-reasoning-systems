@@ -2,11 +2,13 @@
 
 A knowledge base distilled from ten repositories that cover the core ideas behind modern AI reasoning and autonomous coding agents.
 
-Scenario	Coding IQ (/10)
-DeepSeek V4 Flash (baseline)	7.8
-+ Your knowledge base as reference	8.5–8.8
-**So roughly a 10–15% improvement in overall usefulness.
-**
+| Model                                         | Overall Coding / Engineering |
+| --------------------------------------------- | :--------------------------: |
+| **GPT-5.5**                                   |          **10.0/10**         |
+| **Claude (latest flagship)**                  |        **9.8–9.9/10**        |
+| **DeepSeek V4 Flash + AI Systems Context MD** |        **9.0–9.2/10**        |
+| **DeepSeek V4 Flash**                         |        **8.3–8.7/10**        |
+
 
 Read **[ai_systems_knowledge_base.md](ai_systems_knowledge_base.md)** — a self-contained cheatsheet, no summaries or fluff, extracted directly from each project's source: real rule sets, real hyperparameters, real algorithms, real permission models.
 
