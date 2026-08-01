@@ -6,10 +6,10 @@ Hyperlinks to every real system distilled in [`ai_systems_knowledge_base.md`](./
 
 | File | Role |
 |---|---|
-| [`ai_systems_knowledge_base.md`](./ai_systems_knowledge_base.md) | Reasoning, agents, systems engineering, + agent craft (Part IV from system architecture) |
-| [`system architecture.md`](./system%20architecture.md) | Standalone agent craft / system-architecture guide |
-| [`frontend_design_knowledge_base.md`](./frontend_design_knowledge_base.md) | Frontend design judgment (UI systems, spacing, motion, landings, …) |
-| [`ai_fullstack_knowledge_base.md`](./ai_fullstack_knowledge_base.md) | Combined pack: system architecture + frontend design |
+| [`ai_fullstack_knowledge_base.md`](./ai_fullstack_knowledge_base.md) | **All-in-one** — systems KB + frontend design (use this when you want everything) |
+| [`ai_systems_knowledge_base.md`](./ai_systems_knowledge_base.md) | Reasoning, agents, systems engineering; includes agent craft (Part IV = merged `system architecture.md`) |
+| [`frontend_design_knowledge_base.md`](./frontend_design_knowledge_base.md) | Frontend-only slice (UI systems, spacing, motion, landings, …) |
+| [`system architecture.md`](./system%20architecture.md) | Source for agent craft — **merged into** `ai_systems_knowledge_base.md` (Part IV); kept as a light standalone copy |
 
 ## Estimated Impact (Qualitative — Not a Measured Benchmark)
 
