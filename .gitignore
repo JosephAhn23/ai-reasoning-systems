@@ -1,0 +1,8 @@
+# Vendored study repos — not ours, ~800MB
+lean4-master/
+mathlib4-master/
+alphageometry-main/
+dspy-main/
+PySR-master/
+
+.DS_Store
