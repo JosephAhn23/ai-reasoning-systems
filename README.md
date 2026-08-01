@@ -1,6 +1,15 @@
 # AI Systems Knowledge Base — Source Index
 
-Hyperlinks to every real system distilled in [`ai_systems_knowledge_base.md`](./ai_systems_knowledge_base.md), grouped to match the file's Part structure. Updated as each batch is added.
+Hyperlinks to every real system distilled in [`ai_systems_knowledge_base.md`](./ai_systems_knowledge_base.md), grouped to match the file's Part structure.
+
+**Related context packs**
+
+| File | Role |
+|---|---|
+| [`ai_systems_knowledge_base.md`](./ai_systems_knowledge_base.md) | Reasoning, agents, systems engineering, + agent craft (Part IV from system architecture) |
+| [`system architecture.md`](./system%20architecture.md) | Standalone agent craft / system-architecture guide |
+| [`frontend_design_knowledge_base.md`](./frontend_design_knowledge_base.md) | Frontend design judgment (UI systems, spacing, motion, landings, …) |
+| [`ai_fullstack_knowledge_base.md`](./ai_fullstack_knowledge_base.md) | Combined pack: system architecture + frontend design |
 
 ## Estimated Impact (Qualitative — Not a Measured Benchmark)
 
@@ -76,13 +85,221 @@ Hyperlinks to every real system distilled in [`ai_systems_knowledge_base.md`](./
 | FROM_SCRATCH_ENGINEERING.md | SerenityOS / Ladybird | https://github.com/SerenityOS/serenity · https://github.com/LadybirdBrowser/ladybird |
 | VERIFIED_MICROKERNEL.md | seL4 | https://github.com/seL4/seL4 |
 
-### Compilers — *pending*
-### Networking — *pending*
-### ML Infrastructure — *pending*
-### Observability — *pending*
-### Performance — *pending*
-### Build Systems — *pending*
+### Compilers
+
+| File | System | Source |
+|---|---|---|
+| LLVM_IR.md | LLVM | https://github.com/llvm/llvm-project |
+| MLIR.md | MLIR | https://github.com/llvm/llvm-project/tree/main/mlir |
+| TREE_SITTER.md | Tree-sitter | https://github.com/tree-sitter/tree-sitter |
+| CLANG.md | Clang | https://github.com/llvm/llvm-project/tree/main/clang |
+
+### Networking
+
+| File | System | Source |
+|---|---|---|
+| ENVOY.md | Envoy | https://github.com/envoyproxy/envoy |
+| CADDY.md | Caddy | https://github.com/caddyserver/caddy |
+| NGINX.md | nginx | https://github.com/nginx/nginx |
+| CURL.md | curl | https://github.com/curl/curl |
+
+### ML Infrastructure
+
+| File | System | Source |
+|---|---|---|
+| VLLM.md | vLLM | https://github.com/vllm-project/vllm |
+| LLAMA_CPP.md | llama.cpp | https://github.com/ggml-org/llama.cpp |
+| TRITON_INFERENCE_SERVER.md | Triton Inference Server | https://github.com/triton-inference-server/server |
+| TENSORRT_LLM.md | TensorRT-LLM | https://github.com/NVIDIA/TensorRT-LLM |
+| SGLANG.md | SGLang | https://github.com/sgl-project/sglang |
+| DEEPSPEED.md | DeepSpeed | https://github.com/deepspeedai/DeepSpeed |
+
+### Observability
+
+| File | System | Source |
+|---|---|---|
+| PROMETHEUS.md | Prometheus | https://github.com/prometheus/prometheus |
+| GRAFANA.md | Grafana | https://github.com/grafana/grafana |
+| OPENTELEMETRY.md | OpenTelemetry | https://github.com/open-telemetry/opentelemetry-specification |
+| JAEGER.md | Jaeger | https://github.com/jaegertracing/jaeger |
+
+### Performance
+
+| File | System | Source |
+|---|---|---|
+| MIMALLOC.md | mimalloc | https://github.com/microsoft/mimalloc |
+| JEMALLOC.md | jemalloc | https://github.com/jemalloc/jemalloc |
+| FOLLY.md | Folly | https://github.com/facebook/folly |
+| ABSEIL_CPP.md | abseil-cpp | https://github.com/abseil/abseil-cpp |
+
+### Build Systems
+
+| File | System | Source |
+|---|---|---|
+| BAZEL.md | Bazel | https://github.com/bazelbuild/bazel |
+| CMAKE.md | CMake | https://gitlab.kitware.com/cmake/cmake |
+| BUCK2.md | Buck2 | https://github.com/facebook/buck2 |
+
+## Part IV — Agent System Architecture
+
+Merged into [`ai_systems_knowledge_base.md`](./ai_systems_knowledge_base.md) from [`system architecture.md`](./system%20architecture.md) (SYSTEM_PROMPT, PLANNING, AGENTS, ARCHITECTURE, TOOL_USAGE, TESTING, CODE_REVIEW, STYLE_GUIDE, …). The standalone file remains for lighter agent-craft-only context.
+
+## Top 10 repos (maximize engineering IQ)
+
+If picking only ten repositories to study:
+
+1. OpenHands
+2. LLVM
+3. PostgreSQL
+4. Linux Kernel
+5. Kubernetes
+6. Redis
+7. Ray
+8. Envoy
+9. vLLM
+10. SQLite
 
 ---
 
-*This index is generated alongside the knowledge base as each batch of research completes; sections marked "pending" haven't been written yet.*
+## Frontend & Fullstack
+
+Frontend design lives in [`frontend_design_knowledge_base.md`](./frontend_design_knowledge_base.md). For agent craft + UI in one file, use [`ai_fullstack_knowledge_base.md`](./ai_fullstack_knowledge_base.md).
+
+Frontend is one of the biggest weaknesses of cheaper models. They often:
+
+* make everything look similar,
+* have weak visual hierarchy,
+* poor spacing,
+* mediocre UX,
+* generic dashboards,
+* inconsistent component composition.
+
+The sections below are the study map distilled into that frontend KB.
+
+### UI Systems
+
+These teach how professionals build interfaces.
+
+1. shadcn/ui
+2. Magic UI
+3. Aceternity UI
+4. Origin UI
+5. HeroUI (formerly NextUI)
+
+### Animation
+
+Models are terrible at tasteful animation.
+
+1. Motion (Framer Motion)
+2. React Bits
+3. Animate UI
+4. Motion Primitives
+5. GSAP examples
+
+### Dashboard Design
+
+1. Tremor
+2. Taxonomy
+3. Refine
+4. Cal.com
+5. Supabase Dashboard
+
+### Modern Landing Pages
+
+These teach composition.
+
+1. Vercel
+2. Linear
+3. Raycast
+4. Stripe
+5. Resend
+
+### Design Systems
+
+1. Radix UI
+2. Material UI
+3. Chakra UI
+4. Mantine
+5. Adobe React Aria
+
+### UX
+
+1. Laws of UX
+2. Refactoring UI
+3. Nielsen Norman Group
+4. Apple HIG
+5. Material Design 3
+
+### Visualization
+
+1. Tremor
+2. Recharts
+3. Nivo
+4. ECharts
+5. Observable
+
+### Forms
+
+1. React Hook Form
+2. TanStack Form
+3. Zod
+4. Conform
+5. Vest
+
+### Icons
+
+1. Lucide
+2. Heroicons
+3. Tabler Icons
+4. Phosphor
+5. Remix Icons
+
+### Color
+
+1. Tailwind Colors
+2. Radix Colors
+3. Open Color
+4. Material Color
+5. OKLCH examples
+
+### Creativity
+
+These matter way more than people realize. Scrape examples from:
+
+* Awwwards
+* Godly
+* Land-book
+* Mobbin
+* Lapa Ninja
+
+Not for copying — for learning spacing, hierarchy, typography, composition, layouts, and interaction patterns.
+
+### Frontend Context Engineering shape (in the KB)
+
+```
+Frontend/
+  Design Systems/ Typography/ Spacing/ Animations/
+  Dashboards/ Landing Pages/ Mobile UI/ Accessibility/
+  Forms/ Charts/ Navigation/ Dark Mode/
+  Glassmorphism/ Gradients/ Component Patterns/
+  Color Theory/ Visual Hierarchy/ Microinteractions/
+```
+
+### Repositories prioritized in the frontend KB
+
+| Rank | Repo |
+|---|---|
+| ★★★★★ | shadcn/ui |
+| ★★★★★ | Magic UI |
+| ★★★★★ | Aceternity UI |
+| ★★★★★ | Motion |
+| ★★★★★ | Refactoring UI (concepts) |
+| ★★★★☆ | Radix UI |
+| ★★★★☆ | Tremor |
+| ★★★★☆ | React Bits |
+| ★★★★☆ | Taxonomy |
+| ★★★★☆ | React Aria |
+
+### Screenshots over code
+
+For frontend, screenshots may be even more valuable than code. A design system isn't just components — it's visual judgment. The frontend KB calls this out explicitly: curated UI examples paired with distilled principles teach patterns raw React often doesn't capture.
