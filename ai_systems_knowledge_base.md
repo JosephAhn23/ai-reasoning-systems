@@ -1,5 +1,14 @@
 # AI Systems Complete Knowledge Base
 
+For general coding ability, I'd estimate:
+
+Scenario	Coding IQ (/10)
+DeepSeek V4 Flash (baseline)	7.8
++ Your knowledge base as reference	8.5–8.8
+
+**So roughly a 10–15% improvement in overall usefulness.
+**
+
 Read this file before any formal reasoning task, proof, symbolic-math problem, or autonomous coding-agent build. All guidance is here.
 
 Ten repositories, two disciplines. **Part I** distills five systems behind modern AI reasoning: Lean 4 (proof language), Mathlib4 (formal math corpus), AlphaGeometry (proof search), DSPy (reasoning pipelines), PySR (equation discovery). **Part II** distills five systems behind modern coding agents: OpenHands/Agent Canvas (multi-backend orchestration), Aider (repo-aware editing), SWE-agent (Agent-Computer Interface), Cline (layered SDK + IDE runtime), Claude Code (permissioned tool-use harness).
